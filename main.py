@@ -6,6 +6,9 @@ def add(x, y):
 def subtract(x, y):
     return x - y
 
+def multiply(x, y):
+    return x * y
+
 while True:
     number1 = int(input("Enter first number: "))
     number2 = int(input("Enter second number: "))
@@ -24,7 +27,7 @@ while True:
     elif operation == 2:
         result = subtract(number1, number2)
     elif operation == 3:
-        pass
+        result = multiply(number1, number2)
     elif operation == 4:
         pass
     elif operation == 5:
