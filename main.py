@@ -3,6 +3,8 @@
 def add(x, y):
     return x + y
 
+def subtract(x, y):
+    return x - y
 
 while True:
     number1 = int(input("Enter first number: "))
@@ -19,9 +21,8 @@ while True:
 
     if operation == 1:
         result = add(number1, number2)
-
     elif operation == 2:
-        pass
+        result = subtract(number1, number2)
     elif operation == 3:
         pass
     elif operation == 4:
@@ -32,4 +33,3 @@ while True:
         print("Invalid operation")
 
     print("Result: ", result)
-
